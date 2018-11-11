@@ -8,7 +8,7 @@ package paqueteprincipal;
 /**
  *
  * @author Javier.Sanchez
- * V2: Imprimo 2 líneas pero en una sola, con \n
+ * V3: Probando printf
  */
 public class Bienvenido2 {
     /** El método main comienza la ejecución del programa 
@@ -16,7 +16,6 @@ public class Bienvenido2 {
      * @param args 
      */
     public static void main( String args[] ){
-    System.out.println("Bienvenid@ a \nla programación en Java");
-    //System.out.println("la programación en Java");
+    System.out.printf("%s\n%s\n", "Bienvenido a", "la programación en Java!");
     }
 }
